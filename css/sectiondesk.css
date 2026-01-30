@@ -1,0 +1,905 @@
+.sistem-blocdois{
+    display: none;
+}
+
+
+/*SEÇÃO-UM*/
+.sect-um{
+    display: flex;
+    background-color:#0D3371 ;
+    width: 100%;
+    height: 600px;
+}
+/*seção-um - lado um*/
+.sect-blocum{
+    display: flex;
+    flex-wrap: wrap;
+    width: 60%;
+    height: 100%;
+}
+
+/*lista da seção-um*/
+.list-blocum{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 200px;
+    padding: 10px;
+    color: white;
+    font-size: 19px;
+}
+/*titulo um*/
+#titulo-blocum{
+    margin-left: 40px;
+    width: 100%;
+    font-size: 30px;
+    color: white;
+}
+/*titulo seção-um*/
+#dados-bloc{
+    width: 40%;
+}
+
+/*fundo dos icones seçao-um*/
+.sect-blocdois{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    margin-top: 20px;
+}
+/*icones da bolinha*/
+#icons-blocdois{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: #175ED4;
+    height:50px;
+    width: 50px;
+    padding: 10px;
+    border-radius: 20px;
+    font-size: 40px;
+    color: white;
+}
+/*numeros da bolinha*/
+#dados-icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    font-size: 17px;
+    margin-top: 40px;
+}
+
+/*fundo dos texto da seção-um*/
+.sect-bloctres{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    padding: 10px;
+    color: white;
+    font-size: 19px;
+    padding-left: 40px;
+    margin-top: 50px;
+}
+
+
+
+/*seção-um - lado dois*/
+.sectdois-bloc{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 50%;
+    padding-top: 40px;
+}
+
+/*fundo segundo carrossel*/
+.fundo-blocdois{
+    display: block;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 50%;
+}
+/*bloco das imagens*/
+#blocdois-planum, 
+#blocdois-plandois, 
+#blocdois-plantres{
+    height: 320px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 320px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+#blocdois-planum{
+    background-color:white;
+    transform: rotate(-30deg) translateY(40px) translateX(-20px);
+    z-index: 4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#blocdois-plandois{
+    background-color: #A6CCFA;
+    transform: translateY(-270px) rotate(30deg);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#blocdois-plantres{
+    background-color:#175ED4;
+    transform: translateY(-590px) ;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/*tamanho das imagens*/
+#img-plabloc{
+    height: 300px;
+    width: 300px;
+}
+
+/*fundo configuração do carrossel*/
+.fundo-blocdoissistema{
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    flex-wrap: wrap; 
+    width: 100%;
+    padding-top: 100px;
+}
+/*seta para ir*/
+#icons-setblocodoisir{
+    font-size: 50px;
+    color: white;
+}
+/*seta para voltar*/
+#icons-setblocodoisvoltar{
+    font-size: 50px;
+    color: white;
+}
+
+
+#fundo-sistemtitulo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    font-size: 25px;
+    color: white;
+}
+
+#bolinha-sistema{
+    color: rgba(255, 255, 255, 0.33);
+
+}
+#bolinha-sistemabranca{
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+/*seção-dois*/
+.sect-dois{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color:white ;
+    width: 100%;
+    height: 600px;
+}
+
+
+
+/*seção-dois - lado decoração*/
+.back-sectdois{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color:white ;
+    width: 100%;
+    height: 600px;
+}
+.decor-tipoum{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 50%;
+    height: 5%;
+    margin-top: 180px;
+}
+#decorumpequeno{
+    width: 50%;
+    height: 20%;
+    background-color:#175ED4;
+
+}
+#decorummedio{
+    width:60%;
+    height: 20%;
+    background-color: #175ED4;
+}
+#decorumgrande{
+    width: 80%;
+    height: 20%;
+    background-color: #175ED4;
+
+}
+.decor-tipodois{
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 50%;
+    height: 5%;
+    margin-top: 90px;
+}
+#decorumpequenoescuro{
+    width: 50%;
+    height: 20%;
+    background-color:#0D3371;
+
+}
+#decorummedioescuro{
+    width:60%;
+    height: 20%;
+    background-color: #0D3371;
+}
+#decorumgrandeescuro{
+    width: 80%;
+    height: 20%;
+    background-color: #0D3371;
+}
+
+
+
+
+
+
+
+
+
+
+
+/*seção-dois - lado texto/formulario */
+.espaço-sectdois{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 600px;
+    position: absolute;
+}
+
+
+
+/*seção-dois - lado texto */
+.fundo-textespaçodois{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 40%;
+    margin-top: 210px;
+    padding-left: 40px;
+    font-size: 20px;
+}
+#titulo-espaçodois{
+    font-size: 22px;
+    font-weight: bold;
+    width: 100%;
+
+}
+
+/*seção-dois - lado formulario */
+.fundo-formulariosectdois{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 45%;
+    height: 100%;
+}
+#back-form{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 80%;
+    padding: 20px;
+    height: 80%;
+    flex-wrap: wrap;
+    background-color: #175ED4;
+    border-radius: 40px;
+}
+.fundo-tituloformulario{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+
+    color: white;
+}
+#text-tituloformulario{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:100%;
+    font-weight: bold;
+    font-size: 23px;
+}
+#text-textformulario{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: -10px;
+    font-size: 20px;
+}
+
+
+
+
+/*CONFIGURAÇÃO DOS INPUT*/
+#input-nome{
+    width: 90%;
+    font-size:20px;
+    background-color: #175ED4;
+    color: white;
+    border: 0px;
+    border-bottom: 2px solid white;
+    padding:10px;
+}
+#input-nome::placeholder{
+    color: white;
+}
+#input-email{
+    width: 40%;
+    font-size:20px;
+    background-color: #175ED4;
+    color: white;
+    border: 0px;
+    border-bottom: 2px solid white;
+    padding:10px;
+}
+#input-email::placeholder{
+    color: white;
+}
+#input-number{
+    width: 40%;
+    font-size:20px;
+    background-color: #175ED4;
+    color: white;
+    border: 0px;
+    border-bottom: 2px solid white;
+    padding:10px;
+}
+#input-number::placeholder{
+    color: white;
+}
+
+#input-pessoas{
+    width: 90%;
+    font-size:20px;
+    background-color: #175ED4;
+    color: white;
+    border: 0px;
+    border-bottom: 2px solid white;
+    padding:10px;
+}
+#input-pessoas::placeholder{
+    color: white;
+}
+#input-entrada{
+    width: 40%;
+    font-size:20px;
+    background-color: #175ED4;
+    color: white;
+    border: 0px;
+    border-bottom: 2px solid white;
+    padding:10px;
+}
+#input-entrada::placeholder{
+    color: white;
+}
+#input-saida{
+    width: 40%;
+    font-size:20px;
+    background-color: #175ED4;
+    color: white;
+    border: 0px;
+    border-bottom: 2px solid white;
+    padding:10px;
+}
+#input-saida::placeholder{
+    color: white;
+}
+
+#btn-enviarcadastro{
+    width: 80%;
+    font-size:20px;
+    background-color: #175ED4;
+    color: white;
+    border: 2px solid white;
+    padding:10px;
+    cursor: pointer;
+}
+#btn-enviarcadastro:hover{
+    background-color:white;
+    color: #175ED4;
+    border: 2px solid #0D3371;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*CONFIGURAÇÃO DOS COMENTARIOS DE AVALIAÇÃO*/
+.sect-tres{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    height: 600px;
+    padding: 10px;
+    overflow-y: hidden;
+}
+#secttres-titulo{
+    display: flex;
+    align-items: center;
+    width: 95%;
+    height: 10%;
+    padding-left:0px ;
+    font-size: 21px;
+    font-weight: bold;
+
+}
+
+/*Configuração de rolagem do bloco de comentarios*/
+.post-comentario{
+    display: flex;
+    flex-wrap: wrap;
+    height: 500px;
+    overflow-y:auto;
+    width: 60%;
+    padding: 20px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+.post-comentario::-webkit-scrollbar {
+    width: 12px;
+    background-color: #0D3371               /* width of the entire scrollbar */
+}
+.post-comentario::-webkit-scrollbar-thumb {
+    background-color: #175ED4;   
+}
+
+
+/*Configuração do bloco de comentarios*/
+#bloco-comentario{
+    display: flex;
+    flex-wrap: wrap;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    width: 100%;
+    height: 380px;
+    border: 1px solid rgba(0, 0, 0, 0.41);
+}
+
+
+/*Bloco comentarios- parte um*/
+#bloco-partum{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 10px;
+    width: 100%;
+    height: 15%;
+    background-color: #175ED4;
+    color: white;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+/*parte um - icone de imagem*/
+#img-users{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 5%;
+    height: 100%;
+    font-size: 40px;
+    color: white;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+/*parte um - espaço informação pessoal*/
+#partun-bloco{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 85%;
+    height: 100%;
+    margin-left: 10px;
+}
+/*parte um - nome do cliente*/
+#nomecomentario-users{
+    display: flex;
+    width: 100%;
+    margin-top: 5px;
+    font-size: 19px;
+}
+/*parte um - avaliação do cliente*/
+#avaliaçao-user{
+    display: flex;
+    width: 100%;
+    margin-top: -17px;
+    font-size: 14px;  
+}
+
+
+/*Bloco comentarios- parte dois*/
+#bloco-partdois{
+    display: flex;
+    flex-wrap: wrap;
+    word-break:break-all;
+    width: 100%;
+    height: 20%;
+    padding: 10px;
+    overflow-y:visible;
+    position: relative;
+}
+/*parte dois - texto comentario*/
+#comentario-user{
+    display: flex;
+    margin-top: -1px;
+    font-size: 17px; 
+    
+}
+
+
+/*Bloco comentarios- parte tres*/
+#bloco-partres{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    margin-top: -0px;
+}
+/*parte tres - tamanho da imagem*/
+#img-sitio{
+    width: 150px;
+    height: 150px;
+    cursor: pointer;
+    margin-left: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.41);
+}
+
+
+
+/*Configuração do bloco de inserir comentario*/
+.add-comentario{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 30%;
+    height: 500px;
+    padding: 0px;
+    background-color: #0D3371;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+/*inserir comentario - titulo comentario*/
+#titulo-comentario{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 22px;
+    width: 100%;
+    height: 5%;
+    color: white;
+    font-weight: bold;
+}
+/*inserir comentario - fundo nome,avaliação e mensagem*/
+.fundo-adicionarcomentario{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+}
+
+/*inserir comentario -  nome */
+#input-nomecomentario{
+    width: 40%;
+    height: 15%;
+    padding:5px;
+    font-size:18px;
+    border:0px;
+    padding: 2px;
+    background-color: #0D3371;
+    color: white;
+    border-bottom: 4px solid #175ED4;
+    transition: 0.3s;
+    box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
+}
+#input-nomecomentario::placeholder{
+    color: white;
+}
+#input-nomecomentario:focus{
+    background-color: #175ED4;
+    padding: 10px;
+    border: 0px;
+    outline: 0;
+    border: 4px solid #0D3371;
+}
+
+/*inserir comentario -  avaliação */
+#input-avaliaçaocomentario{
+    width: 40%;
+    height: 15%;
+    padding:5px;
+    font-size:18px;
+    border:0px;
+    padding: 2px;
+    transition: 0.3s;
+    background-color: #0D3371;
+    color: white;
+    border-bottom: 4px solid #175ED4;
+    box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
+
+}
+#input-avaliaçaocomentario::placeholder{
+    color: white;
+}
+#input-avaliaçaocomentario:focus{
+    background-color: #175ED4;
+    padding: 10px;
+    border: 0px;
+    outline: 0;
+    border: 4px solid #0D3371;
+}
+
+/*inserir comentario -  texto */
+#texto-comentario{
+    width: 90%;
+    height: 150px;
+    overflow-y: auto;
+    font-size: 18px;
+    background-color: #0D3371;
+    color: white;
+    border: 0px;
+    transition: 0.3s;
+    box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
+    border-bottom: 4px solid #175ED4;
+}
+#texto-comentario::placeholder{
+    color: white;
+}
+#texto-comentario:focus{
+    background-color: #175ED4;
+    padding: 10px;
+    border: 0px;
+    outline: 0;
+    border: 4px solid #0D3371;
+}
+
+/*inserir comentario -  imagem */
+.img-adicionarcomentario{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    
+}
+input[type="file"]{
+    display: none;
+}
+.adicionarimg-comentario{
+    border: 1px solid #ccc;
+    display: flex;
+    cursor: pointer;
+    background-color: #175ED4;
+    color: white;
+    padding: 10px;
+    width: 20%;
+
+}
+.adicionarimg-comentario:hover{
+    background-color:#0D3371;
+}
+
+/*inserir comentario -  enviar */
+#btn-enviarcomentario{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    width: 70%;
+    height: 9%;
+    background-color: #175ED4;
+    font-size: 20px;
+    color: white;
+    border: 0;
+    border-radius: 40px;
+    margin-top: 20px;
+    transition: 0.2s;
+}
+#btn-enviarcomentario:hover{
+    background-color: #0D3371;
+    border: 4px solid #175ED4;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.sect-quatro{
+    display: none;
+    width: 100%;
+
+    flex-wrap: wrap;
+    transform: translateY(60px);
+    background-color: #175ED4;
+}
+
+
+
+.back-sectdoisquatro{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+    height: 600px;
+}
+
+.decor-tipoumquatro{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 50%;
+    height: 5%;
+    margin-top: 40px;
+}
+
+#decorumpequenoquatro{
+    width: 50%;
+    height: 20%;
+    background-color:white;
+
+}
+#decorummedioquatro{
+    width:60%;
+    height: 20%;
+    background-color: white;
+}
+
+
+#decorumgrandequatro{
+    width: 80%;
+    height: 20%;
+    background-color:white;
+
+}
+
+
+.decor-tipodoisquatro{
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 50%;
+    height: 5%;
+    margin-top: 250px;
+}
+
+#decorumpequenoescuroquatro{
+    width: 50%;
+    height: 20%;
+    background-color:#0D3371;
+
+}
+#decorummedioescuroquatro{
+    width:60%;
+    height: 20%;
+    background-color: #0D3371;
+}
+
+
+#decorumgrandeescuroquatro{
+    width: 80%;
+    height: 20%;
+    background-color: #0D3371;
+
+}
+
+
+
+.back-localicar{
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 90px;
+    width:60%;
+    height: 500px;
+    position: absolute;
+    color: white;
+}
+
+#local-endereço{
+    width: 100%;
+    height: 10%;
+    font-size: 22px;
+    padding-left: 90px;
+
+}
+#local-telefone{
+    width: 100%;
+    height: 10%;
+    padding-left: 90px;
+    font-size: 22px;
+}
+
+#dados-listlocal{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    padding-left: 90px;
+    height: 40%;
+    padding-top: 40px;
+    font-size: 22px;
+}
+#dados-local{
+    width: 100%;
+    font-size: 18px;
+}
+
+.back-map{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+    padding: 10px;
+    height: 580px;
+    position:absolute;
+    margin-left:700px;
+}
+iframe{
+    width: 100%;
+    height: 80%;
+}
+
+
+
+
+
+
+
+
+
+
